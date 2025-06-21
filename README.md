@@ -14,7 +14,7 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
 
 1. **Clone repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/unvbld/Kumparan-Backend-Technical-Assessment.git
    cd Kumparan-Backend-Technical-Assessment
    ```
 
