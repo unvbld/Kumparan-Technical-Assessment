@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/unvbld/Kumparan-Backend-Technical-Assessment/model"
+	"github.com/unvbld/Kumparan-Technical-Assessment/model"
 )
 
 type ArticleRepository struct {

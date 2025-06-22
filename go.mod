@@ -1,4 +1,4 @@
-module github.com/unvbld/Kumparan-Backend-Technical-Assessment
+module github.com/unvbld/Kumparan-Technical-Assessment
 
 go 1.23.3
 

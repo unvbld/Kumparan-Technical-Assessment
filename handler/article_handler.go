@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/unvbld/Kumparan-Backend-Technical-Assessment/model"
-	"github.com/unvbld/Kumparan-Backend-Technical-Assessment/repository"
+	"github.com/unvbld/Kumparan-Technical-Assessment/model"
+	"github.com/unvbld/Kumparan-Technical-Assessment/repository"
 )
 
 type ArticleHandler struct {

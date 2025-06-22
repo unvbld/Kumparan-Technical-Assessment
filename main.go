@@ -8,8 +8,8 @@ import (
 
 	"github.com/gorilla/mux"
 	_ "github.com/lib/pq"
-	"github.com/unvbld/Kumparan-Backend-Technical-Assessment/handler"
-	"github.com/unvbld/Kumparan-Backend-Technical-Assessment/repository"
+	"github.com/unvbld/Kumparan-Technical-Assessment/handler"
+	"github.com/unvbld/Kumparan-Technical-Assessment/repository"
 	"golang.org/x/time/rate"
 )
 

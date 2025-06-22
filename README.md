@@ -1,4 +1,4 @@
-# Kumparan Backend Technical Assessment
+# Kumparan Tech Assessment
 
 REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
 
@@ -12,10 +12,10 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
 
 ## Setup & Installation
 
-1. **Clone repository**
-   ```bash
-   git clone https://github.com/unvbld/Kumparan-Backend-Technical-Assessment.git
-   cd Kumparan-Backend-Technical-Assessment
+1. **Clone repository**   
+    ```bash
+   git clone https://github.com/unvbld/Kumparan-Technical-Assessment.git
+   cd Kumparan-Technical-Assessment
    ```
 
 2. **Start PostgreSQL dengan Docker**
@@ -23,15 +23,13 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
    docker-compose up -d
    ```
 
-3. **Setup database schema**
-   ```bash
+3. **Setup database schema**   ```bash
    # Create schema in the kumparan database
-   docker exec -i kumparan-backend-technical-assessment-db-1 psql -U postgres -d kumparan < db/schema.sql
+   docker exec -i kumparan-technical-assessment-db-1 psql -U postgres -d kumparan < db/schema.sql
    ```
    
-   Atau untuk PowerShell:
-   ```powershell
-   Get-Content db/schema.sql | docker exec -i kumparan-backend-technical-assessment-db-1 psql -U postgres -d kumparan
+   Atau untuk PowerShell:   ```powershell
+   Get-Content db/schema.sql | docker exec -i kumparan-technical-assessment-db-1 psql -U postgres -d kumparan
    ```
    
    Atau bisa copy paste isi schema.sql ke psql:
@@ -59,10 +57,9 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
    ```bash
    # Linux/Mac
    go run main.go
-   
-   # Atau build terlebih dahulu (Windows)
+     # Atau build terlebih dahulu (Windows)
    go build
-   .\Kumparan-Backend-Technical-Assessment.exe
+   .\Kumparan-Technical-Assessment.exe
    ```
 
 Server akan berjalan di `http://localhost:8080`
