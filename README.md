@@ -12,17 +12,10 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
 
 ## Setup & Installation
 
-<<<<<<< HEAD
-1. **Clone repository**   
-    ```bash
-   git clone https://github.com/unvbld/Kumparan-Technical-Assessment.git
-   cd Kumparan-Technical-Assessment
-=======
 1. **Clone repository**
    ```bash
    git clone https://github.com/unvbld/Kumparan-Technical-Assessment.git
-   cd Kumparan-Backend-Technical-Assessment
->>>>>>> c5218896a4af6f766537763c5f2cd65754d68c6a
+   cd Kumparan-Technical-Assessment
    ```
 
 2. **Start PostgreSQL dengan Docker**
@@ -30,17 +23,14 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
    docker-compose up -d
    ```
 
-3. **Setup database schema**   ```bash
+3. **Setup database schema**
+   ```bash
    # Create schema in the kumparan database
    docker exec -i kumparan-technical-assessment-db-1 psql -U postgres -d kumparan < db/schema.sql
    ```
    
-<<<<<<< HEAD
-   Atau untuk PowerShell:   ```powershell
-=======
    Atau untuk PowerShell:
    ```powershell
->>>>>>> c5218896a4af6f766537763c5f2cd65754d68c6a
    Get-Content db/schema.sql | docker exec -i kumparan-technical-assessment-db-1 psql -U postgres -d kumparan
    ```
    
@@ -69,7 +59,8 @@ REST API untuk manajemen artikel menggunakan Go, PostgreSQL, dan Docker.
    ```bash
    # Linux/Mac
    go run main.go
-     # Atau build terlebih dahulu (Windows)
+   
+   # Atau build terlebih dahulu (Windows)
    go build
    .\Kumparan-Technical-Assessment.exe
    ```
